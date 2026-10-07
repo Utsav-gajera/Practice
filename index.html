@@ -22,8 +22,7 @@ form.addEventListener('submit', async (e) => {
 e.preventDefault();
 const a = document.getElementById('num1').value;
 const b = document.getElementById('num2').value;
-const apiUrl = 'https://<api-id>.execute-api.<region>.amazonaws.com/prod/add'; //
-replace with your API URL
+const apiUrl = "https://cj5ywgoh63.execute-api.ap-south-1.amazonaws.com/prod"
 try {
 const response = await fetch(apiUrl, {
 method: 'POST',
